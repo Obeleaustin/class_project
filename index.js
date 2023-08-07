@@ -7,6 +7,7 @@ let option4 = document.createElement('option')
 let option5 = document.createElement('option')
 let option6 = document.createElement('option')
 let option7 = document.createElement('option')
+let display = document.getElementById('display')
 
 courses.appendChild(option1)
 courses.appendChild(option2)
@@ -20,3 +21,22 @@ option1.innerHTML = 'Desktop Publishing'
 option2.innerHTML = 'Electronics'
 option3.innerHTML = 'Web Development'
 option4.innerHTML = 'Computer Hardware Repairs and Maintenance'
+
+function myFunction(){
+    let courseSelected = courses.value;
+    let opt1 = option1.value;
+    let opt2 = option2.value;
+    let opt3 = option3.value;
+    let opt4 = option4.value;
+
+    // console.log(opt1)
+
+    if(courseSelected === opt1){
+        display.innerHTML = `this is ${courseSelected}`
+    }else if(courseSelected === opt2){
+        display.innerHTML = `this is ${courseSelected}`
+
+    }
+
+
+}
