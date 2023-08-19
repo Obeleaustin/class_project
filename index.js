@@ -1,3 +1,7 @@
+
+import {courseData} from './new-module.js'
+
+
 let courses = document.getElementById('courses')
 
 let option1 = document.createElement('option')
@@ -18,7 +22,7 @@ courses.appendChild(option5)
 courses.appendChild(option6)
 courses.appendChild(option7)
 
-option1.innerText = 'Desktop Publishing'
+option1.innerHTML = 'Desktop Publishing'
 option2.innerHTML = 'Electronics'
 option3.innerHTML = 'Web Development'
 option4.innerHTML = 'Computer Hardware Repairs and Maintenance'
@@ -26,7 +30,7 @@ option5.innerHTML = 'kids Code'
 option6.innerHTML = 'Graphics Design'
 option7.innerHTML = 'Digital Marketing'
 
-
+document.getElementsByTagName("option").setAttribute("class", "option")
 
 function myFunction(){
    
@@ -89,9 +93,124 @@ function myFunction(){
 
     }else if (courseSelected === opt2){
         form.innerHTML = ''
-        let you  = document.createElement('label')
-        you.innerText = 'o girl a'
-        form.appendChild(you)
+
+        let para = document.createElement('p')
+        para.innerText = 'Do you have a computer'
+
+        let yes = document.createElement('label')
+        yes.innerText = 'Yes'
+        let inputYes = document.createElement('input')
+        inputYes.type = 'radio'
+        inputYes.name = 'option'
+
+        let breakLine = document.createElement('br')
+
+        let no = document.createElement('label')
+        no.innerText = 'No'
+        let inputNo = document.createElement('input')
+        inputNo.type = 'radio'
+        inputNo.name = 'option'
+
+        
+        let para2 = document.createElement('p')
+        para2.innerText = 'Mode of learning'
+        let Yes = document.createElement('label')
+        Yes.innerText = 'Yes'
+        let InputYes = document.createElement('input')
+        InputYes.type = 'radio'
+        InputYes.name = 'option2'
+        
+        let BreakLine = document.createElement('br')
+        
+        let No = document.createElement('label')
+        No.innerText = 'No'
+        let InputNo = document.createElement('input')
+        InputNo.type = 'radio'
+        InputNo.name = 'option2'
+        
+        form.appendChild(para)
+        form.appendChild(inputYes)
+        form.appendChild(yes)
+        form.appendChild(breakLine)
+        form.appendChild(inputNo)
+        form.appendChild(no)
+        form.appendChild(para2)
+        form.appendChild(InputYes)
+        form.appendChild(Yes)
+        form.appendChild(BreakLine)
+        form.appendChild(InputNo)
+        form.appendChild(No)
+    }else if(courseSelected === opt3){
+        form.innerHTML = ''
+
+        let para = document.createElement('p')
+        para.innerText = 'Do you have a computer'
+
+        let yes = document.createElement('label')
+        yes.innerText = 'Yes'
+        let inputYes = document.createElement('input')
+        inputYes.type = 'radio'
+        inputYes.name = 'option'
+
+        let breakLine = document.createElement('br')
+
+        let no = document.createElement('label')
+        no.innerText = 'No'
+        let inputNo = document.createElement('input')
+        inputNo.type = 'radio'
+        inputNo.name = 'option'
+
+        
+        let para2 = document.createElement('p')
+        para2.innerText = 'Mode of learning'
+        let Yes = document.createElement('label')
+        Yes.innerText = 'Yes'
+        let InputYes = document.createElement('input')
+        InputYes.type = 'radio'
+        InputYes.name = 'option2'
+        
+        let BreakLine = document.createElement('br')
+        
+        let No = document.createElement('label')
+        No.innerText = 'No'
+        let InputNo = document.createElement('input')
+        InputNo.type = 'radio'
+        InputNo.name = 'option2'
+
+        let para3 = document.createElement('p')
+        para3.innerText = 'Framework to learn'
+        let react = document.createElement('label')
+        react.innerText = 'React'
+        let inputReact = document.createElement('input')
+        inputReact.type = 'radio'
+        inputReact.name = 'option3'
+
+        let breakLine1 = document.createElement('br')
+        
+        let angular = document.createElement('label')
+        angular.innerText = 'Angular'
+        let inputAngular = document.createElement('input')
+        inputAngular.type = 'radio'
+        inputAngular.name = 'option3'
+
+        form.appendChild(para)
+        form.appendChild(inputYes)
+        form.appendChild(yes)
+        form.appendChild(breakLine)
+        form.appendChild(inputNo)
+        form.appendChild(no)
+        form.appendChild(para2)
+        form.appendChild(InputYes)
+        form.appendChild(Yes)
+        form.appendChild(BreakLine)
+        form.appendChild(InputNo)
+        form.appendChild(No)
+        form.appendChild(para3)
+        form.appendChild(inputReact)
+        form.appendChild(react)
+        form.appendChild(breakLine1)
+        form.appendChild(inputAngular)
+        form.appendChild(angular)
     }
     // data.form1 = form1
     

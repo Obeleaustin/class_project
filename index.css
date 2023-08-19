@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    margin-left: -0.01%;
+}
+#head{
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+#iospinelogo{
+    width: 25%;
+    margin-top: -1%;
+}
+.fa-solid{
+    float: right;
+    font-size: 150%;
+    color: #741e1e; ;
+}
+.fa-solid {
+    font-size: 150%;
+    margin-right: 4%;
+    color: #741e1e;;
+}
+#iospine{
+    background-color: #a41818;
+    text-align: center;
+}
+#courses{
+    /* margin-bottom: 5px; */
+    padding: 1%;
+    color: #090202;
+    text-align: center;
+    outline:none;
+    border: none;
+    border-radius: 6px;
+    font-size: 105%;
+    font-weight: 550;
+}
+#footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+#ft1{
+    margin-right: 9%;
+
+}
+#ft2{
+    border-left: 2px solid white;
+}
+#ft1 ul li{
+    list-style-type: none;
+    padding: 10%;
+
+}
+#ft1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+#ft2 ul li{
+    list-style-type: none;
+    padding: 10%;
+}
+#ft2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* .option{
+    text-algn: center;
+    color: #090202;
+}
+.option.hover{
+    background-color: #090202;
+} */
+/* .fa-solid{
+    width: 10em;
+    font-size: 190%; 
+
+} */
