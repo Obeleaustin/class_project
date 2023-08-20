@@ -1,14 +1,20 @@
 body{
     width: 100%;
     margin-left: -0.01%;
+    margin-bottom: 40%;
 }
 #head{
+    background-color: white;
     width: 100%;
+    padding: 2%;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
 }
 #iospinelogo{
     width: 25%;
     margin-top: -1%;
+    margin-left: 2%;
 }
 .fa-solid{
     float: right;
@@ -20,9 +26,14 @@ body{
     margin-right: 4%;
     color: #741e1e;;
 }
+#img{
+    width: 100%;
+    margin-top: 15%;
+}
 #iospine{
     background-color: #a41818;
     text-align: center;
+
 }
 #courses{
     /* margin-bottom: 5px; */
@@ -40,16 +51,13 @@ body{
     display: flex;
     justify-content: center;
 }
-#ft1{
-    margin-right: 9%;
-
-}
 #ft2{
     border-left: 2px solid white;
 }
 #ft1 ul li{
     list-style-type: none;
     padding: 10%;
+    margin-left: -74%;
 
 }
 #ft1 ul li a{
