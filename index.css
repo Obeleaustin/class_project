@@ -1,7 +1,6 @@
 body{
     width: 100%;
     margin-left: -0.01%;
-    margin-bottom: 40%;
 }
 #head{
     background-color: white;
@@ -38,12 +37,13 @@ body{
 #courses{
     /* margin-bottom: 5px; */
     padding: 1%;
+    /* width: ; */
     color: #090202;
     text-align: center;
     outline:none;
     border: none;
     border-radius: 6px;
-    font-size: 105%;
+    font-size: 100%;
     font-weight: 550;
 }
 #footer{
