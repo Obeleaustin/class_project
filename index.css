@@ -50,12 +50,15 @@ body{
     font-weight: 550;
 }
 #courses option{
-    color: black;
-    background-color: aqua;
-    
+    color:black;
+    background-color: white;
+}
+#courses > option{
+    color: white;
+    background-color: #741e1e;
 }
 #form > p{
-    /* margin-left: -55%;  */
+    margin-left: 7%; 
     text-align: left;
 }
 #form > label{
