@@ -49,6 +49,24 @@ body{
     font-size: 100%;
     font-weight: 550;
 }
+#courses option{
+    color: black;
+    background-color: aqua;
+    
+}
+#form > p{
+    /* margin-left: -55%;  */
+    text-align: left;
+}
+#form > label{
+    display: inline-block;
+    margin-left: -28%; 
+
+}
+#form > input[type="radio"]{
+    margin-left: -90%; 
+
+}
 input{
     width: 60%;
     font-size: 110%;
