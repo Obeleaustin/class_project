@@ -21,7 +21,7 @@ export let courseData = [
 
     },
     {
-        courseTitle : 'Computer Hardware Repairs and Maintainance',
+        courseTitle : 'Computer Hardware Repairs and Maintenance',
         price : 40000,
         courseDescription : '',
         location: 'Yenagoa'
@@ -49,4 +49,3 @@ export let courseData = [
 
     }
 ]
-
