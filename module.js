@@ -61,6 +61,23 @@ InputOnline.setAttribute("class", "input")
 InputOnline.type = 'radio';
 InputOnline.name = 'option2';
 
+let par3 = document.createElement('p')
+par3.innerText = 'Framework to learn'
+let react = document.createElement('label')
+react.innerText = 'React'
+let inputReact = document.createElement('input')
+inputReact.setAttribute("class", "Input")
+inputReact.type = 'radio'
+inputReact.name = 'option3'
+
+let breakLine1 = document.createElement('br')
+
+let angular = document.createElement('label')
+angular.innerText = 'Angular'
+let inputAngular = document.createElement('input')
+inputAngular.setAttribute("class", "Input")
+inputAngular.type = 'radio'
+inputAngular.name = 'option3'
 
 let para1 = document.createElement('p')
 let para2 = document.createElement('p')
@@ -68,4 +85,5 @@ let para3 = document.createElement('p')
 let para4 = document.createElement('p')
 
 export{courses, display, form, option1, option2, option3, option4, option5, option6, option7}
-export{para, yes, inputYes, breakLine, no, inputNo, par2, Yes, InputOffline, BreakLine, Online, InputOnline, para1, para2, para3, para4};
+export{para, yes, inputYes, breakLine, no, inputNo, par2, Yes, InputOffline, BreakLine, Online, InputOnline, 
+   par3, react, inputReact, breakLine1, angular, inputAngular, para1, para2, para3, para4};
