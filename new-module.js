@@ -16,7 +16,7 @@ export let courseData = [
     {
         courseTitle : 'Web Development',
         price : 100000,
-        courseDescription : 'Get to know how the internet works and how to build your own website',
+        courseDescription : 'Get to know how to build your own website',
         location: 'Yenagoa'
 
     },
